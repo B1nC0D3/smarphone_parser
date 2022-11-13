@@ -1,0 +1,5 @@
+Scrapy==2.7.1
+scrapy-rotated-proxy==0.1.5
+undetected-chromedriver==3.1.6
+pandas==1.5.1
+python-dotenv==0.21.0

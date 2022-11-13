@@ -69,7 +69,7 @@ PROXY_STORAGE = 'scrapy_rotated_proxy.extensions.file_storage.FileProxyStorage'
 # When set PROXY_FILE_PATH='', scrapy-rotated-proxy
 # will use proxy in Spider Settings default.
 PROXY_FILE_PATH = ''
-HTTPS_PROXIES = os.getenv('HTTPS_PROXY', '127.0.0.1')
+HTTPS_PROXIES = os.getenv('HTTPS_PROXY', None)
 
 
 # Enable or disable extensions
